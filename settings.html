@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>expense tracker</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <nav>
+    <h1>Expense Tracker</h1>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="expense.html">Expenses</a>
+      <a href="settings.html">Settings</a>
+    </div>
+  </nav>
+ <main>
+<p><button><a href="expense.html">Back</a></button></p>
+    <p id="paragraph"></p>
+   <div id="input+weekly" class="input-weekly">
+     
+     <p><input id="weekly-budget" type="number" placeholder="Enter Weekly Budget"</p>
+     
+     <button id="weekly">Enter</button>
+   </div>
+   
+   <div class="input-weekly">
+   <select name="currency" id="currency">
+     <option value="">Select Your Currency</option>
+     <option value="USD">USD</option>
+     <option value="Naira">Naira</option>
+   </select>
+   <p><button id="btn2" >Set Currency</button></p>
+   </div>
+ </main>
+ <script src="settings.js"></script>
+ </body>
+</html>
